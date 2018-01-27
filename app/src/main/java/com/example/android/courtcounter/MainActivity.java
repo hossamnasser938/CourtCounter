@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function displays Team A score
      */
-    void displayA(String score){
+    private void displayA(String score){
         TextView text = (TextView) findViewById(R.id.teamA_score_text);
         text.setText(score);
     }
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function displays Team A score
      */
-    void displayB(String score){
+    private void displayB(String score){
         TextView text = (TextView) findViewById(R.id.teamB_score_text);
         text.setText(score);
     }
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when +3Points button of team A is clicked
      */
-    void add3PointsToTeamA(View view){
+    public void add3PointsToTeamA(View view){
         teamAScore += 3;
         displayA(teamAScore.toString());
     }
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when +3Points button of team B is clicked
      */
-    void add3PointsToTeamB(View view){
+    public void add3PointsToTeamB(View view){
         teamBScore += 3;
         displayB(teamBScore.toString());
     }
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when +2Points button of team A is clicked
      */
-    void add2PointsToTeamA(View view){
+    public void add2PointsToTeamA(View view){
         teamAScore += 2;
         displayA(teamAScore.toString());
     }
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when +2Points button of team B is clicked
      */
-    void add2PointsToTeamB(View view){
+    public void add2PointsToTeamB(View view){
         teamBScore += 2;
         displayB(teamBScore.toString());
     }
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when Free Through button of team A is clicked
      */
-    void add1PointToTeamA(View view){
+    public void add1PointToTeamA(View view){
         teamAScore += 1;
         displayA(teamAScore.toString());
     }
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when Free Through button of team A is clicked
      */
-    void add1PointToTeamB(View view){
+    public void add1PointToTeamB(View view){
         teamBScore += 1;
         displayB(teamBScore.toString());
     }
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This method is called when Reset button is clicked
      */
-    void resetScores(View view){
+    public void resetScores(View view){
         teamAScore = 0;
         teamBScore = 0;
         displayA(teamAScore.toString());

@@ -44,7 +44,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:text="+3 Points"
-                android:onClick="add3PointsToTeamA"/>
+                android:onClick="add3PointsToTeamA" />
 
             <Button
                 android:layout_width="wrap_content"
