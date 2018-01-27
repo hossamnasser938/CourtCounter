@@ -26,7 +26,7 @@
                 android:paddingTop="16dp"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:margin="16dp"
+                android:layout_margin="16dp"
                 android:text="Team A"/>
 
             <TextView
@@ -79,7 +79,7 @@
                 android:paddingTop="16dp"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:margin="16dp"
+                android:layout_margin="16dp"
                 android:text="Team B"/>
 
             <TextView
