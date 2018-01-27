@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when Free Through button of team A is clicked
      */
-    void add1PointsToTeamA(View view){
+    void add1PointToTeamA(View view){
         teamAScore += 1;
         displayA(teamAScore.toString());
     }
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This function is called when Free Through button of team A is clicked
      */
-    void add1PointsToTeamB(View view){
+    void add1PointToTeamB(View view){
         teamBScore += 1;
         displayB(teamBScore.toString());
     }
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     **This method is called when Reset button is clicked
      */
-    void resetScore(View view){
+    void resetScores(View view){
         teamAScore = 0;
         teamBScore = 0;
         displayA(teamAScore.toString());

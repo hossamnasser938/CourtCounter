@@ -43,7 +43,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:text="+3 Points"/>
+                android:text="+3 Points"
+                android:onClick="add3PointsToTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -51,7 +52,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:text="+2 Points"/>
+                android:text="+2 Points"
+                android:onClick="add2PointsToTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -59,7 +61,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:text="Free Through"/>
+                android:text="Free Through"
+                android:onClick="add1PointToTeamA"/>
 
         </LinearLayout>
 
@@ -93,7 +96,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:text="+3 Points"/>
+                android:text="+3 Points"
+                android:onClick="add3PointsToTeamB"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -101,7 +105,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:text="+2 Points"/>
+                android:text="+2 Points"
+                android:onClick="add2PointsToTeamB"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -109,7 +114,8 @@
                 android:layout_gravity="center"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:text="Free Through"/>
+                android:text="Free Through"
+                android:onClick="add1PointToTeamB"/>
 
         </LinearLayout>
 
@@ -119,6 +125,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Reset"/>
+        android:text="Reset"
+        android:onClick="resetScores"/>
 
 </LinearLayout>
