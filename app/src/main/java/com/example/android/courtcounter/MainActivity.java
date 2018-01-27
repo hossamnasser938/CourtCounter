@@ -80,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
         displayB(teamBScore.toString());
     }
 
-
+    /*
+    **This method is called when Reset button is clicked
+     */
+    void resetScore(View view){
+        teamAScore = 0;
+        teamBScore = 0;
+        displayA(teamAScore.toString());
+        displayB(teamBScore.toString());
+    }
 
 }
